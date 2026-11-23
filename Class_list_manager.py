@@ -26,3 +26,32 @@ def main():
 
 
 main()
+
+
+# Written by: Leen (Task 1)
+def count_names(names):
+    return len(names)
+
+def main():
+    print("Welcome to the Class List Manager!")
+    print("Class list:", names)
+    print("Number of names:", count_names(names))
+
+main()
+
+
+
+# Written by: Leen (Task 7)
+def count_vowels(name):
+    count = 0
+    for letter in name.lower():
+        if letter in "aeiou":
+            count += 1
+    return count
+
+def main():
+    print("Welcome to the Class List Manager!")
+    print("Class list:", names)
+    print("Number of vowels:", count_vowels(names[0]))
+
+main()
