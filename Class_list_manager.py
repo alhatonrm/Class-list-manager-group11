@@ -55,3 +55,18 @@ def main():
     print("Number of vowels:", count_vowels(names[0]))
 
 main()
+# Written by: Farah (task 2)
+def search_name(names, name):
+    for n in names:
+        if n == name:
+            return True
+    return False
+
+
+# Written by: Farah (task 5)
+def names_starting_with(names, letter):
+    result = []
+    for name in names:
+        if name.startswith(letter):
+            result.append(name)
+    return result
