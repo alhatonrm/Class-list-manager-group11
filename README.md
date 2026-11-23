@@ -6,4 +6,4 @@ MIS 211 Collaborative GitHub Assignment (`Class_list_manager.py`).
 - **Alhaton (Team Leader):** Tasks 3 (`sort_names`) and 6 (`to_upper`)
 - **Farah:** Tasks 1 and 5
 - **Leen:** Tasks 2 and 7
-- **Noura:** Task 5
+- **Noura:** Task 8
