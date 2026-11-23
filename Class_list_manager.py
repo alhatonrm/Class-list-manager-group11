@@ -21,7 +21,7 @@ def search_name(names, name):
     for n in names:
         if n == name:
             return True
-    return False
+    return False 
 
 
 # Written by: Farah (task 5)
