@@ -75,3 +75,17 @@ def main():
 
 main()
 
+# Written by: Noura (Task 8)
+def remove_duplicates(names):
+    new_names = []
+    for name in names:
+        if name not in new_names:
+            new_names.append(name)
+    return new_names
+
+def main():
+    print("Welcome to the Class List Manager!")
+    print("Class list:", names)
+    print("Names without duplicates:", remove_duplicates(names))
+
+main()
