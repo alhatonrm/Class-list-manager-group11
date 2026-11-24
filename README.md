@@ -3,7 +3,7 @@
 MIS 211 Collaborative GitHub Assignment (`Class_list_manager.py`).
 
 ## Team Members & Tasks
-- **Alhaton (Team Leader):** Tasks 3 (`sort_names`) and 6 (`to_upper`)
-- **Farah:** Tasks 2 and 5
-- **Leen:** Tasks 1 and 7
-- **Noura:** Task 8
+- **Alhaton (Team Leader):** sort_names(names) and to_upper(names)
+- **Farah:** search_name(names, name) and names_starting_with(names, letter)
+- **Leen:** count_names(names) and count_vowels(name)
+- **Noura:** remove_duplicates(names)
