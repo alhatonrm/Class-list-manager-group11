@@ -1,6 +1,6 @@
 # Class List Manager - Group 11
 
-MIS 211 Collaborative GitHub Assignment (`Class_list_manager.py`).
+A Python program that organizes a class list however wanted using lists and strings. 
 
 ## Team Members & Tasks
 - **Alhaton (Team Leader):** sort_names(names) and to_upper(names)
