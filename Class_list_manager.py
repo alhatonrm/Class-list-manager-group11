@@ -6,15 +6,16 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 
 # ===== Each student adds her function BELOW this line =====
 
-# Written by: Alhaton  (task 3)
-def sort_names(names):
-    return sorted(names)
+# Written by: Leen (Task 1)
+def count_names(names):
+    return len(names)
 
+def main():
+    print("Welcome to the Class List Manager!")
+    print("Class list:", names)
+    print("Number of names:", count_names(names))
 
-# Written by: Alhaton  (task 6)
-def to_upper(names):
-    return [name.upper() for name in names]
-
+main()
 
 # Written by: Farah (task 2)
 def search_name(names, name):
@@ -22,6 +23,11 @@ def search_name(names, name):
         if n == name:
             return True
     return False 
+
+
+# Written by: Alhaton  (task 3)
+def sort_names(names):
+    return sorted(names)
 
 
 # Written by: Farah (task 5)
@@ -32,6 +38,10 @@ def names_starting_with(names, letter):
             result.append(name)
     return result
 
+
+# Written by: Alhaton  (task 6)
+def to_upper(names):
+    return [name.upper() for name in names]
 
 def main():
     print("Welcome to the Class List Manager!")
@@ -45,19 +55,6 @@ def main():
 
 
 main()
-
-
-# Written by: Leen (Task 1)
-def count_names(names):
-    return len(names)
-
-def main():
-    print("Welcome to the Class List Manager!")
-    print("Class list:", names)
-    print("Number of names:", count_names(names))
-
-main()
-
 
 
 # Written by: Leen (Task 7)
